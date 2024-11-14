@@ -91,9 +91,10 @@
   margin-top: 100px;
   display: flex;
   justify-content: center;
+  align-items: flex-start;
 }
 
-.description_two-columns {
+.description__two-columns {
   width:80%;
   margin: auto;
   display: flex;
@@ -102,7 +103,7 @@
   align-items: flex-start;
 }
 
-.description_brief {
+.description__brief {
   margin-top: 0;
   width: 175px;
   line-height: 1.2;
@@ -111,7 +112,7 @@
   color: #2f80ed;
 }
 
-.description_main-text {
+.description__main-text {
   width:80%;
   min-width: 784px;
   display: flex;
@@ -119,7 +120,7 @@
   justify-content: space-between;
 }
 
-.description_paragraph {
+.description__paragraph {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -130,7 +131,7 @@
   margin-bottom: 0;
 }
 
-.description_span-accent {
+.description__span-accent {
   line-height: 34px;
   font-size: 24px;
   font-weight: 600;
