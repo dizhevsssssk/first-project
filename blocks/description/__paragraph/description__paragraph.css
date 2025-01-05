@@ -1,0 +1,10 @@
+.description__paragraph {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0 0 30px;
+}
+
+.description_paragraph:last-of-type {
+  margin-bottom: 0;
+}
